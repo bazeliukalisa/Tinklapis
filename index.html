@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NTPROJECT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav id="myHeader">
+            <ul>
+                <li><a href="https://www.google.lt/">NTPROJECT</a></li>
+                <li><a href="index.html">Pradžia</a></li>
+                <li><a href="#jump">Pasiūlymai</a></li>
+                <li><a href="#jumpNews">Naujienos</a></li>
+                <li><a href="#jumpContacts">Kontaktai</a></li>
+            </ul>
+        </nav>
+        <a name="jump"></a>
+        <div class="containerHeader">
+            <h1>Lorem ipsum dolor</h1>
+            <h1>sit amet conset</h1>
+            <section class="containerChoice">
+                <button class="rows">&#8592;</button>
+                <div class="card">
+                    <img src="img/header1.jpeg" alt="room1">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi recusandae vel ipsa accusantium debitis quae laboriosam nemo sapiente, esse quas rerum, voluptatem quasi ducimus eos, eligendi in! Rem repudiandae, doloribus.</p>
+                    <button class="w3-buttons w3-display-right">&#8594;</button>
+                </div>
+                <div class="card">
+                    <img src="img/header2.jpeg" alt="room2">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi recusandae vel ipsa accusantium debitis quae laboriosam nemo sapiente, esse quas rerum, voluptatem quasi ducimus eos, eligendi in! Rem repudiandae, doloribus.</p>
+                    <button class="w3-buttons w3-display-right">&#8594;</button>
+                </div>
+                <div class="card">
+                    <img src="img/header3.jpeg" alt="room3">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi recusandae vel ipsa accusantium debitis quae laboriosam nemo sapiente, esse quas rerum, voluptatem quasi ducimus eos, eligendi in! Rem repudiandae, doloribus.</p>
+                    <button class="w3-buttons w3-display-right">&#8594;</button>
+                </div>
+                <button class="rows">&#8594;</button>
+            </section>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="containerTable">
+                <nav>
+                    <div class="dropdown">
+                        <button onclick="myFunction1()" class="dropbtn">Plotas</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">30.00</a>
+                            <a href="#">35.00</a>
+                            <a href="#">50.17</a>
+                            <a href="#">60.00</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="myFunction2()" class="dropbtn">Kambarių skaičius</button>
+                        <div id="myDropdown2" class="dropdown-content">
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="myFunction3()" class="dropbtn">Orientacija</button>
+                        <div id="myDropdown3" class="dropdown-content">
+                            <a href="#">Rytai</a>
+                            <a href="#">Vakarai</a>
+                            <a href="#">Pietūs</a>
+                            <a href="#">Šiaurė</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="myFunction4()" class="dropbtn">Baigtumas</button>
+                        <div id="myDropdown4" class="dropdown-content">
+                            <a href="#">Pastatyta</a>
+                            <a href="#">Statoma</a>
+                        </div>
+                    </div>
+                </nav>
+                <table id="buildTable">
+                    <tr>
+                        <th>Nuolaida</th>
+                        <th>Namo nr.</th>
+                        <th>Plotas m2</th>
+                        <th>Kambarių skaičius</th>
+                        <th>Langų orientacija</th>
+                        <th>Baigtumas</th>
+                    </tr>
+                    <tr>
+                        <td>-5% </td>
+                        <td>1</td>
+                        <td>50.17</td>
+                        <td>3</td>
+                        <td>Pietūs</td>
+                        <td>Pastatyta</td>
+
+                    </tr>
+                    <tr>
+                        <td>-5%</td>
+                        <td>1</td>
+                        <td>60.00</td>
+                        <td>4</td>
+                        <td>Rytai</td>
+                        <td>Pastatyta</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>2</td>
+                        <td>35.00</td>
+                        <td>2</td>
+                        <td>Pietūs</td>
+                        <td>Pastatyta</td>
+                    </tr>
+                    <tr>
+                        <td>-10%</td>
+                        <td>1</td>
+                        <td>30.00</td>
+                        <td>1</td>
+                        <td>Pietūs</td>
+                        <td>Statoma</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>1</td>
+                        <td>60.00</td>
+                        <td>4</td>
+                        <td>Rytai</td>
+                        <td>Pastatyta</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>2</td>
+                        <td>35.00</td>
+                        <td>2</td>
+                        <td>Pietūs</td>
+                        <td>Pastatyta</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>1</td>
+                        <td>50.17</td>
+                        <td>3</td>
+                        <td>Pietūs</td>
+                        <td>Statoma</td>
+
+                    </tr>
+                    <tr>
+                        <td>-5% </td>
+                        <td>1</td>
+                        <td>60.00</td>
+                        <td>4</td>
+                        <td>Rytai</td>
+                        <td>Pastatyta</td>
+
+                    </tr>
+                    <tr>
+                        <td>-5%</td>
+                        <td>2</td>
+                        <td>35.00</td>
+                        <td>2</td>
+                        <td>Pietūs</td>
+                        <td>Pastatyta</td>
+                    </tr>
+                    <tr>
+                        <td>-5% </td>
+                        <td>1</td>
+                        <td>50.17</td>
+                        <td>3</td>
+                        <td>Pietūs</td>
+                        <td>Statoma</td>
+
+                    </tr>
+                    <tr>
+                        <td>-10%</td>
+                        <td>1</td>
+                        <td>60.00</td>
+                        <td>4</td>
+                        <td>Rytai</td>
+                        <td>Statoma</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>2</td>
+                        <td>35.00</td>
+                        <td>2</td>
+                        <td>Pietūs</td>
+                        <td>Pastatyta</td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        <article>
+            <a name="jumpNews"></a>
+            <h1 class="containerNewsh1">Naujienos</h1>
+            <section class="containerNews">
+                <div class="news1">
+                    <img src="img/news1.jpeg" alt="news1">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="news2">
+                    <img src="img/news2.jpeg" alt="news2">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="news3">
+                    <img src="img/news3.jpeg" alt="news3">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="news4">
+                    <img src="img/news4.jpeg" alt="news4">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="news5">
+                    <img src="img/news5.jpeg" alt="new5">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="news6">
+                    <img src="img/news6.jpeg" alt="news6">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <button type="button">Daugiau naujienų</button>
+            </section>
+        </article>
+        <article>
+            <div class="articleForm">
+                <div class="containerPersons">
+                    <img src="img/worker1.jpeg" alt="worker1">
+                    <div class="workerText1">
+                        <h4>Agnė Valentinaitė</h4>
+                        <p>agne@ntprojects.com</p>
+                        <p>+370 62553454</p>
+                    </div>
+                    <img src="img/worker2.jpeg" alt="worker2">
+                    <div class="workerText2">
+                        <h4>Kamilė Henderson</h4>
+                        <p>kamile@ntprojects.com</p>
+                        <p>+370 64567893</p>
+                    </div>
+                    <img src="img/worker3.jpeg" alt="worker3">
+                    <div class="workerText3">
+                        <h4>Tomas Petkevičius</h4>
+                        <p>tomas@ntprojects.com</p>
+                        <p>+370 60567843</p>
+                    </div>
+                </div>
+                <div class ="Forma">
+                    <form action="" onsubmit="return validate();">
+                        <h1>Sužinok apie projektą daugiau</h1>
+                        <input type="text" placeholder="Jūsų vardas" id="name">
+                        <hr>
+                        <p id="result1"></p>
+                        <input type="email" placeholder="El.Paštas" id="email">
+                        <hr>
+                        <p id="result2"></p>
+                        <input type="number" placeholder="Telefono numeris" id="phone" maxlength="15" pattern="[0-9-+ /]*">
+                        <hr>
+                        <p id="result3"></p>
+                        <input type="text" placeholder="Žinutė" id="message">
+                        <hr>
+                        <p id="result4"></p>
+                        <label class="container">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam sed ut voluptates eos inventore reiciendis, ea magni fugit, non facilis. Animi beatae, in possimus esse perferendis vitae! Doloribus, reiciendis, hic. <a href="https://www.google.lt/">ntprojects@info.com</a><br></p>
+                            <input type="checkbox" name="agreeCheckbox" value="Agree" class="check">
+                            <span class="checkmark" id="checked"></span>
+                        </label>
+                        <p id="result5"></p>
+                        <button type="submit">Siųsti</button>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <a name="jumpContacts"></a>
+        <div class="column1">
+            <h4>Apie statytoją</h4>
+            <p>Lorem Ipsum</p>
+            <p>Dolor sit amet</p>
+        </div>
+        <div class="column2">
+            <h4>Saugumas</h4>
+            <p>Consectetur adipiscing</p>
+            <p>Sed do eiusmod</p>
+        </div>
+        <div class="column3">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </footer>
+ <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
